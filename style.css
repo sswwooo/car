@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=DM+Serif+Display&family=Exo&family=Fraunces:opsz@9..144&family=Kanit&family=Montserrat&family=Mooli&family=Playfair+Display&family=Plus+Jakarta+Sans&family=Poppins&family=Roboto:wght@400;500&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo";
+}
+
+body {
+    background: radial-gradient(circle, rgb(25, 25, 28) 80%, rgba(28, 45, 77, 1) 110%);
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+/* header */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+}
+
+.logo a {
+    color: white;
+}
+
+.list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.list a {
+    color: #F1F2F3;
+    font-family: "Exo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.list a:hover {
+    transition: all ease .7s;
+    color: #4177DC;
+}
+
+/* hero */
+
+.hero-title {
+    text-align: center;
+    color: #FFF;
+    font-family: "Exo";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    padding-top: 140px;
+}
+
+.hero-sub {
+    color: #FFF;
+    text-align: center;
+    font-family: "Exo";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    padding-top: 20px;
+}
+
+.light {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 15px;
+}
+
+.light p {
+    color: #BABEC4;
+    font-family: "Exo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+.hero-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+    margin-top: 47px;
+}
+
+.hero-card {
+    text-align: center;
+}
+
+.info {
+    color: #888B91;
+    font-family: "Exo";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 5px;
+}
+
+.hero-card h2 {
+    color: #FFF;
+    font-family: "Exo";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-top: 20px;
+}
+
+#mileage {
+    color: #FFF;
+    font-family: "Exo";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.start {
+    position: relative;
+    border: 2px solid #02DB8A;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.start-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.in {
+    position: absolute;
+    border: 2px solid #02DB8A;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in p {
+    color: #FFF;
+    font-family: "Exo";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+/* main */
+
+.future {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 98px;
+}
+
+.future-img {
+    position: relative;
+    display: flex;
+}
+
+#info {
+    position: absolute;
+    width: 197px;
+    height: 104px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(8px);
+    text-align: center;
+    padding-top: 16px;
+    bottom: -52px;
+    right: 0;
+}
+
+#info h3 {
+    color: #FFF;
+    font-family: "Exo";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+#info p {
+    color: #FFF;
+    font-family: "Exo";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.future-img img {
+    border-radius: 10px;
+}
+
+.future-info h2 {
+    color: #F1F2F3;
+    font-family: "Exo";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    width: 209px;
+}
+
+.future-info p {
+    color: #BABEC4;
+    font-family: "Exo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 401px;
+    margin-top: 24px;
+}
+
+.future-info button {
+    padding: 14px 32px;
+    border-radius: 4px;
+    background: #4177DC;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-family: "Exo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    cursor: pointer;
+    margin-top: 62px;
+}
+
+
+
+.choose-card {
+    /* width: 250px; */
+    padding: 32px 24px 24px 22px;
+    border-radius: 20px;
+    background: radial-gradient(circle, rgba(31, 39, 54, 1) 2%, rgba(17, 18, 19, 1) 100%);
+}
+
+.choose-title {
+    margin-top: 160px;
+    text-align: center;
+    color: #F1F2F3;
+    font-family: "Exo";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.statistics {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    color: #FFF;
+    font-family: "Exo";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 20px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.choose-card h2 {
+    color: #F1F2F3;
+    font-family: "Exo";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+#turbo {
+    color: #BABEC4;
+    font-family: "Exo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 12px;
+}
+
+.choose-card h3 {
+    color: #FFF;
+    font-family: "Exo";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    padding-top: 31px;
+}
+
+.choose-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 64px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.shop {
+    position: absolute;
+    border-radius: 20px 0px;
+    background: #4177DC;
+    width: 56px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #FFF;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.more-info h2 {
+    color: #F1F2F3;
+    text-align: center;
+    font-family: "Exo";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-top: 176px;
+}
+
+.square {
+    position: absolute;
+    width: 127px;
+    height: 92px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(8px);
+    right: -30px;
+    bottom: -200px;
+}
+
+.square h3,
+.square-two h3,
+.square-three h3 {
+    color: #FFF;
+    font-family: "Exo";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.square p,
+.square-two p,
+.square-three p {
+    color: var(--white-color, #FFF);
+    text-align: center;
+    font-family: "Exo";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.more-img {
+    position: relative;
+    width: 230px;
+    left: 40%;
+    top: 64px;
+}
+
+.more-img img {
+    position: absolute;
+}
+
+.square-two {
+    position: absolute;
+    width: 127px;
+    height: 92px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(8px);
+    left: -88px;
+    bottom: -140px;
+}
+
+.square-three {
+    position: absolute;
+    width: 127px;
+    height: 92px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(8px);
+    left: -95px;
+    bottom: -340px;
+}
+
+.lux-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 72px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 110px;
+    padding-top: 72px;
+    gap: 50px;
+}
+
+.lux-title {
+    text-align: center;
+    margin-top: 700px;
+}
+
+.lux-title h2 {
+    color: #F1F2F3;
+    text-align: center;
+    font-family: "Exo";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 48px;
+}
+
+.lux-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.all {
+    color: #F1F2F3;
+    font-family: "Exo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    background: #4177DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.tesla,
+.audi,
+.porsche {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 16px;
+    background: #111213;
+}
+
+.subs {
+    margin-top: 72px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 72px 0 56px 0;
+}
+
+.subs-info h2 {
+    color: #F1F2F3;
+    font-family: "Exo";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    width: 270px;
+    padding-bottom: 32px;
+}
+
+.subs-info p {
+    color: #BABEC4;
+    width: 375px;
+    font-family: "Exo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding-bottom: 48px;
+}
+
+.subs-info button {
+    color: #FFF;
+    font-family: "Exo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    padding: 10px 26px;
+    border-radius: 4px;
+    background: #4177DC;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.last-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 90px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 155px;
+    padding-bottom: 100px;
+}
+
+.foot-one p {
+    padding-top: 24px;
+    color: #BABEC4;
+    font-family: "Exo";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 198px;
+}
+
+.footer h3 {
+    color: #F1F2F3;
+    font-family: "Exo";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    padding-bottom: 12px;
+}
+
+/* .foot-four {
+    height: 170px;
+} */
+
+.footer a {
+    color: #BABEC4;
+    font-family: "Exo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.footer li {
+    margin-top: 12px;
+}
+
+.foot-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+#last {
+    text-align: center;
+    color: #888B91;
+    font-family: "Exo";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding-bottom: 32px;
+}
